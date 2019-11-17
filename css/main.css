@@ -1,0 +1,75 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap');
+
+/* Optimalized on 1366x768 */
+
+/* Navbar */
+nav .navbar-brand {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+}
+
+nav .navbar-brand .navbar-brand-text {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+nav .navbar-brand-text .top-text {
+  font-weight: 400;
+  color: #356293 !important;
+}
+
+nav .navbar-brand-text .bottom-text {
+  font-weight: 400;
+  color: #FF0000 !important;
+}
+
+nav a.nav-link {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+}
+
+.jumbotron .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.4);
+  z-index: -1;
+}
+
+@media(max-width:767px) {
+  .jumbotron-inner {
+    width: 90%;
+    z-index: 0;
+  }
+}
+
+@media(min-width:768px) {
+  .jumbotron-inner {
+    width: 60%;
+    z-index: 0;
+  }
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 52px;
+}
+
+.jumbotron p {
+  color: #fff;
+  font-family: 'Playfair Display', sans-serif;
+}
