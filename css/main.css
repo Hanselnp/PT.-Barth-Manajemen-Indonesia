@@ -1,6 +1,7 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 
 /* Optimalized on 1366x768 */
 
@@ -72,4 +73,28 @@ nav a.nav-link {
 .jumbotron p {
   color: #fff;
   font-family: 'Playfair Display', sans-serif;
+}
+
+/* Footer */
+footer {
+  color: #fff;
+}
+
+footer .foot-header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+footer .foot-content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+/* Misc */
+.bg-dark {
+  color: #191919;
 }

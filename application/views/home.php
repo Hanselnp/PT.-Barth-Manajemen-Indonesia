@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="<?php echo base_url() ?>/js/font-awesome/all.js" charset="utf-8"></script>
 </head>
 <body>
 <div class="container-fluid p-0">
@@ -72,24 +73,58 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
+    <!-- Refer Inimedia.co.id -->
+    <div class="col-12 col-md-6 col-lg-3 text-center">
+      <h3>Column 1 </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-12 col-md-6 col-lg-3 text-center">
       <h3>Column 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-12 col-md-6 col-lg-3 text-center">
       <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 text-center">
+      <h3>Column 4</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
   </div>
 </div>
-
-
+<div class="container-fluid p-0 bg-dark">
+  <footer>
+    <div class="row no-gutters">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 mt-2 mb-2">
+            <div class="foot-header">
+              Mini Menu
+            </div>
+            <div class="foot-content">
+              MENU 1
+              MENU 2
+              MENU 3
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-2 mb-2">
+            <div class="foot-header">
+              Mini Menu
+            </div>
+            <div class="foot-content">
+              MENU 1
+              MENU 2
+              MENU 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
