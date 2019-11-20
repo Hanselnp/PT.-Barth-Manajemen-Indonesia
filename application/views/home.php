@@ -5,10 +5,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>/css/main.css">
   <link rel="icon favicon" href="<?php echo base_url() ?>/images/logo.png">
+
+  <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url() ?>/js/font-awesome/all.js" charset="utf-8"></script>
+  <script src="<?php echo base_url() ?>/js/sly/sly.min.js" charset="utf-8"></script>
+  <script src="<?php echo base_url() ?>/js/main.js" charset="utf-8"></script>
 </head>
 <body>
 <div class="container-fluid p-0">
@@ -136,7 +144,45 @@
           </div>
         </div>
         <div class="row">
-          <!-- Scroll or static? -->
+          <div class="frame" id="basic">
+            <ul class="clearfix">
+              <li>0</li>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li>10</li>
+              <li>11</li>
+              <li>12</li>
+              <li>13</li>
+              <li>14</li>
+              <li>15</li>
+              <li>16</li>
+              <li>17</li>
+              <li>18</li>
+              <li>19</li>
+              <li>20</li>
+              <li>21</li>
+              <li>22</li>
+              <li>23</li>
+              <li>24</li>
+              <li>25</li>
+              <li>26</li>
+              <li>27</li>
+              <li>28</li>
+              <li>29</li>
+            </ul>
+          </div>
+          <ul class="pages"></ul>
+          <div class="sly-buttons">
+            <a href="#" class="prevPage">Prev</a>
+            <a href="#" class="nextPage">Next</a>
+          </div>
         </div>
       </div>
     </div>
