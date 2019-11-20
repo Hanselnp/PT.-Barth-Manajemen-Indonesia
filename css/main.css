@@ -114,36 +114,76 @@ section#short_desc .desc-text {
 
 /* Sly */
 .frame {
-  height: 250px;
-  line-height: 250px;
+  height: 235px;
+  /* line-height: 250px; */
   overflow: hidden;
 }
 
-.frame ul {
+.frame .slidee {
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 125%;
   font-size: 50px;
 }
 
-.frame ul li {
+.frame .slidee .slidee-item {
   float: left;
   width: 227px;
   height: 100%;
   margin: 0 1px 0 0;
   padding: 0;
-  background: #333;
-  color: #ddd;
-  text-align: center;
   cursor: pointer;
+  position: relative;
 }
 
-.frame ul li.active {
+.frame .slidee .slidee-item text {
+  position: absolute;
+  bottom: 0;
+}
+
+.frame .slidee .slidee-item .item-image {
+  height: 60%;
+}
+
+.frame .slidee .slidee-item .item-image .image {
+  width: 75%;
+  padding-bottom: 75%;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #dfdfdf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frame .slidee .slidee-item .item-caption {
+  color: #191919;
+  font-size: 20px;
+  text-align: center;
+}
+
+.frame .slidee .slidee-item .item-caption p {
+  margin-bottom: 0;
+}
+
+.frame .slidee .slidee-item .item-caption .big {
+  font-size: 20px;
+}
+
+.frame .slidee .slidee-item .item-caption .small {
+  font-size: 15px;
+}
+
+/* .frame .slidee div.active {
   color: #fff;
   background: #a03232;
-}
+} */
 
+.frame ul li text {
+  font-size: 22px;
+  bottom: 10px;
+}
 
 /* Scrollbar */
 
