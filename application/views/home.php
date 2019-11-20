@@ -68,33 +68,96 @@
       This is the company slogan. <br> Slogan two and three here.
     </h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a href="#" class="a-button">Learn More</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="row">
-    <!-- Refer Inimedia.co.id -->
-    <div class="col-12 col-md-6 col-lg-3 text-center">
-      <h3>Column 1 </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <section id="short_desc">
+    <div class="row">
+      <div class="sect-header col-12 text-center mb-2">
+        <h2>Who are we?</h2>
+      </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-3 text-center">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto text-center desc-text">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-3 text-center">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  </section>
+</div>
+<div class="container-fluid p-0 bg-grey">
+  <section id="services">
+    <div class="row no-gutters">
+      <div class="container">
+        <div class="row">
+          <div class="sect-header col-12 text-center mb-2">
+            <h2>Our Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Refer Inimedia.co.id -->
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <i class="fas fa-users"></i>
+            <h3 class="mt-2">Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <i class="fas fa-users"></i>
+            <h3 class="mt-2">Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <i class="fas fa-users"></i>
+            <h3 class="mt-2">Column 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-center">
+            <i class="fas fa-users"></i>
+            <h3 class="mt-2">Column 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-3 text-center">
-      <h3>Column 4</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  </section>
+</div>
+<div class="container-fluid p-0">
+  <section id="teams">
+    <div class="row no-gutters">
+      <div class="container">
+        <div class="row">
+          <div class="sect-header col-12 text-center mb-2">
+            <h2>Our Expert Teams</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Scroll or static? -->
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+</div>
+<div class="container-fluid p-0 bg-grey">
+  <section id="clients">
+    <div class="row no-gutters">
+      <div class="container">
+        <div class="row">
+          <div class="sect-header col-12 text-center mb-2">
+            <h2>Our Clients</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- List of Clients -->
+          ABCDEF
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 <div class="container-fluid p-0 bg-dark">
   <footer>
