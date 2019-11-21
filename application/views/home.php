@@ -5,10 +5,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>/css/main.css">
   <link rel="icon favicon" href="<?php echo base_url() ?>/images/logo.png">
+
+  <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url() ?>/js/font-awesome/all.js" charset="utf-8"></script>
+  <script src="<?php echo base_url() ?>/js/sly/sly.min.js" charset="utf-8"></script>
+  <script src="<?php echo base_url() ?>/js/main.js" charset="utf-8"></script>
 </head>
 <body>
 <div class="container-fluid p-0">
@@ -136,7 +144,58 @@
           </div>
         </div>
         <div class="row">
-          <!-- Scroll or static? -->
+          <div class="frame" id="basic">
+            <div class="slidee">
+              <div class="slidee-item">
+                <div class="item-image">
+                  <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                </div>
+                <div class="item-caption">
+                  <p class="big">Nama Orang</p>
+                  <p class="small">Jabatan</p>
+                </div>
+              </div>
+              <div class="slidee-item">
+                <div class="item-image">
+                  <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                </div>
+                <div class="item-caption">
+                  <p class="big">Nama Orang</p>
+                  <p class="small">Jabatan</p>
+                </div>
+              </div>
+              <div class="slidee-item">
+                <div class="item-image">
+                  <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                </div>
+                <div class="item-caption">
+                  <p class="big">Nama Orang</p>
+                  <p class="small">Jabatan</p>
+                </div>
+              </div>
+              <div class="slidee-item">
+                <div class="item-image">
+                  <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                </div>
+                <div class="item-caption">
+                  <p class="big">Nama Orang</p>
+                  <p class="small">Jabatan</p>
+                </div>
+              </div>
+              <div class="slidee-item">
+                <div class="item-image">
+                  <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                </div>
+                <div class="item-caption">
+                  <p class="big">Nama Orang</p>
+                  <p class="small">Jabatan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto text-center" style="display: block;">
+            <ul class="pages"></ul>
+          </div>
         </div>
       </div>
     </div>
