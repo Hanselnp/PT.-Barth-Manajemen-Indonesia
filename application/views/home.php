@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>/css/main.css">
-  <link rel="icon favicon" href="<?php echo base_url() ?>/images/logo.png">
+  <link rel="icon favicon" href="<?php echo base_url() ?>/images/logoBMI.png">
 
   <!-- Javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1 /jquery.min.js"></script>
   <script
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
@@ -24,7 +24,7 @@
     <div class="col-12">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand ml-md-2 ml-lg-3" href="#">
-          <img src="<?php echo base_url() ?>/images/logo.png" width="40" height="40" class="d-inline-block align-middle" alt="">
+          <img src="<?php echo base_url() ?>/images/logoBMI.png" width="40" height="40" class="d-inline-block align-middle" alt="">
           <span class="ml-1 navbar-brand-text d-inline-block align-middle">
             <text class="top-text">PT. Barth Management</text>
             <br>
@@ -59,14 +59,13 @@
 </div>
 
 <div class="top-divider"></div>
-
-<div class="jumbotron text-left" style="background-image: url('<?php echo base_url() ?>/images/banner_1920x1200.jpg')">
-  <div class="overlay"></div>
+<div class="jumbotron text-left" style="background-color: white; ">
+  <!-- <div class="overlay"></div> -->
   <div class="jumbotron-inner">
     <h1>
-      This is the company slogan. <br> Slogan two and three here.
+      Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
     </h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
     <a href="#" class="a-button">Learn More</a>
   </div>
 </div>
@@ -85,7 +84,7 @@
     </div>
   </section>
 </div>
-<div class="container-fluid p-0 bg-grey">
+<div class="container-fluid p-0">
   <section id="services">
     <div class="row no-gutters">
       <div class="container">
@@ -197,7 +196,7 @@
     </div>
   </section>
 </div>
-<div class="container-fluid p-0 bg-grey">
+<div class="container-fluid p-0">
   <section id="clients">
     <div class="row no-gutters">
       <div class="container">
