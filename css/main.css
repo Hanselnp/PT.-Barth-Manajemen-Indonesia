@@ -132,6 +132,7 @@ section .row:last-child {
 /* Section Specific */
 @media (min-width: 768px){
   section#fr-ads h2 {
+    font-family: "Quicksand", sans-serif;
     font-size: 60px;
   }
 

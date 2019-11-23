@@ -37,19 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-lg-3">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Tentang Kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Layanan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
+              <a class="nav-link" href="#">Tim</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Hubungi Kami</a>
             </li>
           </ul>
         </div>
@@ -76,7 +76,7 @@
       <section id="fr-ads">
         <div class="row">
           <div class="sect-header col-12 col-lg-6 mb-2">
-            <h2>Cara Cepat Mengembangkan Manajemen dan Bisnis Anda</h2>
+            <h2>Cara Cepat Mengembangkan Manajemen Bisnis Anda</h2>
           </div>
         </div>
         <div class="row">
