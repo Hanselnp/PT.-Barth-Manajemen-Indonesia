@@ -88,4 +88,16 @@ $(function() {
       reload(768);
     }
   });
+
+  $(document).on("scroll", function() {
+    if ($(window).scrollTop() === 0) {
+      if ($("nav").hasClass("nav-shadow")) {
+        $("nav").removeClass("nav-shadow");
+      }
+    } else {
+      if (!$("nav").hasClass("nav-shadow")) {
+        $("nav").addClass("nav-shadow");
+      }
+    }
+  })
 });

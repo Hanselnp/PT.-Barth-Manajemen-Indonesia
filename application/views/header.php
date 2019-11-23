@@ -1,20 +1,4 @@
-      <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo base_url() ?>/css/main.css">
-<link rel="icon favicon" href="<?php echo base_url() ?>/images/logoBMI.png">
 
-<!-- Javascript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1 /jquery.min.js"></script>
-<script
-src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url() ?>/js/font-awesome/all.js" charset="utf-8"></script>
-<script src="<?php echo base_url() ?>/js/sly/sly.min.js" charset="utf-8"></script>
-<script src="<?php echo base_url() ?>/js/main.js" charset="utf-8"></script>
 <div class="container-fluid p-0">
   <div class="row no-gutters">
     <div class="col-12">
