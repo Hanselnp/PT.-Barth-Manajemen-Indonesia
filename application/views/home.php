@@ -51,23 +51,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
           </ul>
         </div>
       </nav>
     </div>
   </div>
 </div>
+
+<div class="top-divider"></div>
 
 <div class="jumbotron text-left" style="background-image: url('<?php echo base_url() ?>/images/banner_1920x1200.jpg')">
   <div class="overlay"></div>
@@ -104,30 +95,35 @@
           </div>
         </div>
         <div class="row">
-          <!-- Refer Inimedia.co.id -->
-          <div class="col-12 col-md-6 col-lg-3 text-center">
-            <i class="fas fa-users"></i>
+          <div class="col-12 col-md-6">
+            <span class="squared-icon">
+              <i class="fas fa-users"></i>
+            </span>
             <h3 class="mt-2">Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 text-center">
-            <i class="fas fa-users"></i>
-            <h3 class="mt-2">Column 2</h3>
+          <div class="col-12 col-md-6">
+            <span class="squared-icon">
+              <i class="fas fa-users"></i>
+            </span>
+            <h3 class="mt-2">Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 text-center">
-            <i class="fas fa-users"></i>
-            <h3 class="mt-2">Column 3</h3>
+        </div>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6">
+            <span class="squared-icon">
+              <i class="fas fa-users"></i>
+            </span>
+            <h3 class="mt-2">Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 text-center">
-            <i class="fas fa-users"></i>
-            <h3 class="mt-2">Column 4</h3>
+          <div class="col-12 col-md-6">
+            <span class="squared-icon">
+              <i class="fas fa-users"></i>
+            </span>
+            <h3 class="mt-2">Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
           </div>
         </div>
       </div>
