@@ -110,6 +110,11 @@ nav a.nav-link {
 }
 
 /* Section */
+section {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
 section .sect-header {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
@@ -125,6 +130,28 @@ section .row:last-child {
 }
 
 /* Section Specific */
+@media (min-width: 768px){
+  section#fr-ads h2 {
+    font-size: 60px;
+  }
+
+  section#fr-ads .desc-text {
+    font-size: 22px;
+    color: #5d5d5d;
+  }
+}
+
+@media (max-width: 767px) {
+  section#fr-ads h2 {
+    font-size: 35px;
+  }
+
+  section#fr-ads .desc-text {
+    font-size: 22px;
+    color: #5d5d5d;
+  }
+}
+
 section#short_desc .desc-text {
   color: #5d5d5d;
 }
@@ -150,6 +177,12 @@ section#services p {
   background: #fff;
   box-shadow: 0 0 6px rgba(0, 0, 0, .3);
   font-size: 32px;
+}
+
+.full-row-background {
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 /* Sly */

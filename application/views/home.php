@@ -70,6 +70,25 @@
   </div>
 </div>
 
+<div class="container-fluid">
+  <div class="row full-row-background" style="background-image: url('<?php echo base_url(); ?>/images/top-2.png')">
+    <div class="container">
+      <section id="fr-ads">
+        <div class="row">
+          <div class="sect-header col-12 col-lg-6 mb-2">
+            <h2>Cara Cepat Mengembangkan Manajemen dan Bisnis Anda</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-7 desc-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <section id="short_desc">
     <div class="row">
