@@ -7,7 +7,7 @@
   <link rel="icon favicon" href="<?php echo base_url() ?>/images/logoBMI.png">
 
   <!-- Javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1 /jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
@@ -94,14 +94,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 service-item">
             <span class="squared-icon">
               <i class="fas fa-users"></i>
             </span>
             <h3 class="mt-2">Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 service-item">
             <span class="squared-icon">
               <i class="fas fa-users"></i>
             </span>
@@ -109,15 +109,15 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
           </div>
         </div>
-        <div class="row mt-4">
-          <div class="col-12 col-md-6">
+        <div class="row">
+          <div class="col-12 col-md-6 service-item">
             <span class="squared-icon">
               <i class="fas fa-users"></i>
             </span>
             <h3 class="mt-2">Column 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 service-item">
             <span class="squared-icon">
               <i class="fas fa-users"></i>
             </span>

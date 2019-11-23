@@ -113,7 +113,7 @@ nav a.nav-link {
 section .sect-header {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #107DAC;
 }
 
 section .row:first-child {
@@ -129,8 +129,14 @@ section#short_desc .desc-text {
   color: #5d5d5d;
 }
 
+section#services .service-item {
+  margin-bottom: 50px;
+}
+
 section#services h3 {
   font-family: "Quicksand", sans-serif;
+  color: #107DAC;
+  font-size: 30px;
 }
 
 section#services p {
