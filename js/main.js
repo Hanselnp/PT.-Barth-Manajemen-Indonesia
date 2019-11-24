@@ -100,4 +100,26 @@ $(function() {
       }
     }
   })
+
+  $(document).on("click", ".about",function(){
+
+    var scroll = new SmoothScroll('a[href*="#about"]');
+
+  })
+  $(document).on("click", ".service",function(){
+    alert("you clicked Layanan");
+    var scroll1 = new SmoothScroll('a[href*="#service"]');
+
+  })
+  $(document).on("click", ".team",function(){
+    alert("you clicked Tim");
+    var scroll1 = new SmoothScroll('a[href*="#service"]');
+
+  })
+  $(document).on("click", ".contact",function(){
+    alert("you clicked Hubungi Kami");
+    var scroll1 = new SmoothScroll('a[href*="#service"]');
+
+  })
+
 });

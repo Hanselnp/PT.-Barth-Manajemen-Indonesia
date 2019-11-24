@@ -16,6 +16,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url() ?>/js/font-awesome/all.js" charset="utf-8"></script>
   <script src="<?php echo base_url() ?>/js/sly/sly.min.js" charset="utf-8"></script>
+  <script src="<?php echo base_url() ?>/js/smooth-scroll/smooth-scroll.polyfills.min.js" charset="utf-8"></script>
   <script src="<?php echo base_url() ?>/js/main.js" charset="utf-8"></script>
 </head>
 <body>
@@ -37,19 +38,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-lg-3">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>
+              <a class="nav-link" onclick="scrollWindow(0, 100px)">Beranda<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Kami</a>
+            <li class="nav-item about">
+              <a class="nav-link" data-scroll href="#about">Tentang Kami</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Layanan</a>
+            <li class="nav-item service">
+              <a class="nav-link" data-scroll1 href="#service">Layanan</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tim</a>
+            <li class="nav-item team">
+              <a class="nav-link" data-scroll href="#team">Tim</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hubungi Kami</a>
+            <li class="nav-item contact">
+              <a class="nav-link" data-scroll href="#contact">Hubungi Kami</a>
             </li>
           </ul>
         </div>
@@ -59,7 +60,7 @@
 </div>
 
 <div class="top-divider"></div>
-<div class="jumbotron text-left" style="background-color: white; ">
+<div class="jumbotron text-left slogan-background" style="background-image: url('<?php echo base_url(); ?>/images/colab_img.jpg')">
   <!-- <div class="overlay"></div> -->
   <div class="jumbotron-inner">
     <h1>
@@ -80,7 +81,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-7 desc-text">
+          <div class="col-12 col-lg-7 desc-text" id="about">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
         </div>
@@ -89,7 +90,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" >
   <section id="short_desc">
     <div class="row">
       <div class="sect-header col-12 text-center mb-2">
@@ -101,6 +102,7 @@
          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
     </div>
+    <nav id="service"></nav>
   </section>
 </div>
 <div class="container-fluid p-0">
@@ -261,6 +263,7 @@
       </div>
     </div>
   </footer>
+
 </div>
 </body>
 </html>
