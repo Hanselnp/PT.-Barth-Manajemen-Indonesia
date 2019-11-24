@@ -66,7 +66,7 @@
           Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
         </h1>
         <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
-        <a href="#" class="a-button">Learn More</a>
+        <a href="#" class="a-button">Pelajari lebih lanjut.</a>
       </div>
     </div>
 
@@ -81,7 +81,7 @@
             </div>
             <div class="row">
               <div class="col-12 col-lg-7 desc-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Dengan menggunakan jasa serta layanan kami, anda dapat mempermudah kebutuhan perusahaan anda dengan bantuan kami dalam mengelola bidang manajemen serta perpajakan / wajib pajak pada perusahaan anda.
               </div>
             </div>
         </div>
@@ -99,16 +99,16 @@
         <div class="row">
           <div class="col-12 col-lg-8 mx-auto desc-text text-center">
             <p>
-              Perusahaan ini merupakan usaha jasa yang berdiri sejak tahun 2000 dipelopori oleh Ibu Ratih Pujiati SE, selaku Direktur Utama, dimana berawal dari usaha perseorangan Outshorcing & Manajemen di bidang Perpajakan dan keuangan.
+              PT. Barth Manajemen Indonesia merupakan usaha pada bidang jasa, berdiri sejak tahun 2000 dan dipelopori oleh Ibu Ratih Pujiati SE sebagai Direktur Utama, dimana berawal dari usaha perseorangan Outsourcing & Manajemen di bidang Perpajakan dan keuangan.
 
-              Lalu usaha kami berkembang tahun 2012 bekerja sama dengan beberapa KAP (Kantor Akuntan Publik) dan KKP (Kantor Konsultan Pajak ) yang beregister.
-              Usaha kami juga melakukan pelatihan – pelatihan pajak dan akuntansi di perusahaan – perusahaan, dimana setiap tahunnya kami berkecimpung di pelaporan perpajakan Tahunan ( SPT Tahunan).
+              bekerja sama dengan beberapa KAP (Kantor Akuntan Publik) dan KKP (Kantor Konsultan Pajak ) yang beregister pada tahun 2012 dimana
+              Usaha kami juga melakukan pelatihan  pajak dan akuntansi pada perusahaan. Setiap tahunnya kami berkecimpung di pelaporan perpajakan Tahunan (SPT Tahunan).
 
-              Selain itu kami juga menyediakan service jasa akuntansi untuk perusahaan – perusahaan yang belum memiliki system program akuntansi.
+              Kami juga menyediakan service berupa jasa akuntansi untuk perusahaan bagi anda yang belum memiliki system program akuntansi.
 
-              Pada tahun 2019 usaha kami di tetapkan menjadi Perusahaan Perseroan Terbatas dengan nama PT. Barth Manajemen Indonesia.
+             Dengan dukungan anda, pada tahun 2019 usaha kami telah terdaftar menjadi PT. Barth Manajemen Indonesia.
 
-              Dalam hal ini kami memiliki Divisi baru yaitu pembiayaan Modal Kerja untuk Pengusaha – pengusaha kecil, menengah dan besar yang membutuhkan pembiayaan modal dan cashflo </p>
+              sehingga kami dapat memiliki Divisi baru yaitu pembiayaan Modal Kerja untuk para pengusaha kecil, menengah dan besar yang membutuhkan pembiayaan modal dan cashflow. </p>
           </div>
         </div>
       </section>
@@ -130,14 +130,14 @@
                   <i class="fas fa-users-cog"></i>
                 </span>
                 <h3 class="mt-2">Jasa Manajemen</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Konsultasi Manajemen</p>
               </div>
               <div class="col-12 col-md-6 service-item">
                 <span class="squared-icon">
                   <i class="fas fa-users"></i>
                 </span>
                 <h3 class="mt-2">Outsourcing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Jasa Outsourcing Tax, Jasa Outsourcing Akuntansi dan Jasa Pembiayaan Modal Kerja</p>
               </div>
             </div>
             <div class="row">
@@ -145,13 +145,13 @@
                 <span class="squared-icon">
                   <i class="fas fa-money-check-alt"></i> </span>
                 <h3 class="mt-2">Akuntansi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Konsultasi keuangan dan Jasa Pelatihan Akuntansi</p>
               </div>
               <div class="col-12 col-md-6 service-item">
                 <span class="squared-icon">
                   <i class="fas fa-percent"></i> </span>
                 <h3 class="mt-2">Pajak</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Konsultasi Perpajakan dan Jasa pelatihan Pajak</p>
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@
           <div class="container">
             <div class="row">
               <div class="sect-header col-12 text-center mb-2">
-                <h2>Our Expert Teams</h2>
+                <h2>Tim Kami</h2>
               </div>
             </div>
             <div class="row">
@@ -174,47 +174,47 @@
                 <div class="slidee">
                   <div class="slidee-item">
                     <div class="item-image">
-                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                      <div class="image" style="background-image: url('<?php echo base_url(); ?>/images/our_teams/div_HRD.png')"></div>
                     </div>
                     <div class="item-caption">
-                      <p class="big">Nama Orang</p>
-                      <p class="small">Jabatan</p>
+                      <p class="big">Nina Kumala Sari, S.E.</p>
+                      <p class="small">Divisi HRD</p>
                     </div>
                   </div>
                   <div class="slidee-item">
                     <div class="item-image">
-                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                      <div class="image" style="background-image: url('<?php echo base_url(); ?>/images/our_teams/div_finance.png')"></div>
                     </div>
                     <div class="item-caption">
-                      <p class="big">Nama Orang</p>
-                      <p class="small">Jabatan</p>
+                      <p class="big">Dini Nurqolbi, S.E.</p>
+                      <p class="small">Divisi Finansial</p>
                     </div>
                   </div>
                   <div class="slidee-item">
                     <div class="item-image">
-                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                      <div class="image" style="background-image: url('<?php echo base_url(); ?>/images/our_teams/direktur_utama.png')"></div>
                     </div>
                     <div class="item-caption">
-                      <p class="big">Nama Orang</p>
-                      <p class="small">Jabatan</p>
+                      <p class="big">Ratih Pujiati, S.E.</p>
+                      <p class="small">Direktur Utama</p>
                     </div>
                   </div>
                   <div class="slidee-item">
                     <div class="item-image">
-                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                      <div class="image" style="background-image: url('<?php echo base_url(); ?>/images/our_teams/div_marketing.png')"></div>
                     </div>
                     <div class="item-caption">
-                      <p class="big">Nama Orang</p>
-                      <p class="small">Jabatan</p>
+                      <p class="big">Ayu Nuraini</p>
+                      <p class="small">Divisi Pemasaran</p>
                     </div>
                   </div>
                   <div class="slidee-item">
                     <div class="item-image">
-                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                      <div class="image" style="background-image: url('<?php echo base_url(); ?>/images/our_teams/div_ga.png')"></div>
                     </div>
                     <div class="item-caption">
-                      <p class="big">Nama Orang</p>
-                      <p class="small">Jabatan</p>
+                      <p class="big">Elfira Elsan, S.E.</p>
+                      <p class="small">Divisi General Affair</p>
                     </div>
                   </div>
                 </div>
@@ -306,7 +306,7 @@
                   <img src="<?php echo base_url() ?>/images/logoBMI.png" alt="" height="50">
                 </div>
                 <div class="">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                PT. Barth Manajemen Indonesia merupakan usaha pada bidang jasa berupa jasa akuntansi untuk perusahaan bagi anda yang belum memiliki sistem program akuntansi serta pembiayaan Modal Kerja untuk para pengusaha kecil, menengah dan besar yang membutuhkan pembiayaan modal dan cashflow.
                 </div>
                 <!-- <h5>
                   <i class="fas fa-phone-alt"></i> +62 0201 9328<br>
