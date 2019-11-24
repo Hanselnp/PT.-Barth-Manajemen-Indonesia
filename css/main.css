@@ -79,11 +79,31 @@ nav a.nav-link {
     z-index: -1;
 }
 
-.slogan-background {
-  background-size: contain;
-  background-color: white;
-  background-position: center right;
-  background-repeat: no-repeat;
+@media(max-width: 767px) {
+  .slogan-background {
+    background-size: 0 0;
+    background-color: white;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+}
+
+@media(min-width: 768px) {
+  .slogan-background {
+    background-size: 50%;
+    background-color: white;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+}
+
+@media(min-width: 992px) {
+  .slogan-background {
+    background-size: contain;
+    background-color: white;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
 }
 
 .jumbotron .a-button {
@@ -105,25 +125,65 @@ nav a.nav-link {
 
 @media(min-width:768px) {
     .jumbotron-inner {
+        width: 45%;
+        z-index: 0;
+    }
+}
+
+@media(min-width:992px) {
+    .jumbotron-inner {
         width: 60%;
         z-index: 0;
     }
 }
 
-.jumbotron h1 {
-  color: #107DAC;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 52px;
+@media(max-width:767px) {
+  .jumbotron h1 {
+    color: #107DAC;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 52px;
+  }
+
+  .jumbotron p {
+    color: #5d5d5d;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+  }
 }
 
-.jumbotron p {
-  color: #5d5d5d;
-  font-family: 'Quicksand', sans-serif;
-  margin-bottom: 3rem;
-  font-size: 20px;
-  font-weight: bolder;
+@media(min-width:768px) {
+  .jumbotron h1 {
+    color: #107DAC;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+  }
+
+  .jumbotron p {
+    color: #5d5d5d;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+  }
 }
 
+@media(min-width:992px) {
+  .jumbotron h1 {
+    color: #107DAC;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 52px;
+  }
+
+  .jumbotron p {
+    color: #5d5d5d;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
 
 /* Section */
 
@@ -194,8 +254,6 @@ section#about h2 {
   font-family: "Quicksand", sans-serif;
   font-size: 40px;
 }
-
-section
 
 .squared-icon {
     display: inline-block;
