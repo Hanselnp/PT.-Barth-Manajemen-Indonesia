@@ -41,16 +41,16 @@
               <a class="nav-link">Beranda<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item about">
-              <a class="nav-link" data-scroll-header href="#about">Tentang Kami</a>
+              <a class="nav-link" href="#about">Tentang Kami</a>
             </li>
             <li class="nav-item service">
-              <a class="nav-link" data-scroll href="#services">Layanan</a>
+              <a class="nav-link" href="#services">Layanan</a>
             </li>
             <li class="nav-item team">
-              <a class="nav-link" data-scroll href="#team">Tim</a>
+              <a class="nav-link" href="#team">Tim</a>
             </li>
             <li class="nav-item contact">
-              <a class="nav-link" data-scroll href="#contact">Client Kami</a>
+              <a class="nav-link" href="#contact">Client Kami</a>
             </li>
           </ul>
         </div>
