@@ -87,9 +87,6 @@
       </div>
     </div>
   </section>
-
-<div class="container" >
-
   <div class="container" data-aos="fade-up">
     <!-- anchor -->
     <section id="about">
