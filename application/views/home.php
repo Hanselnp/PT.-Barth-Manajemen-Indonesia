@@ -218,65 +218,66 @@
       </div>
     </section>
   </div>
+
   <div class="container-fluid p-0" data-aos="fade-up">
     <section id="clients">
       <div class="row no-gutters">
         <div class="container">
           <div class="row">
             <div class="sect-header col-12 text-center mb-2">
-              <h2>Our Clients</h2>
+              <!-- <img src="<?php echo base_url() ?>/images/client.png" class="img-fluid" alt=""> -->
+              <h2>Client Kami</h2>
             </div>
-          </div>
-          <div class="row">
-            <!-- List of Clients -->
-            <div class="frame" id="basic">
-              <div class="slidee">
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-              </div>
-              <div class="mx-auto text-center" style="display: block;">
-                <ul class="pages"></ul>
-              </div>
+            <div class="col-xs-3 col-sm-2">
+              <a>
+                <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+              </a>
             </div>
-
+            <div class="col-xs-3 col-sm-2">
+              <a>
+                <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+              </a>
+            </div>
+            <div class="col-xs-3 col-sm-2">
+              <a>
+                <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+              </a>
+            </div>
+            <div class="col-xs-3 col-sm-2">
+              <a>
+                <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+              </a>
+            </div>
+            <div class="col-xs-3 col-sm-2">
+              <a>
+                <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+              </a>
+            </div>
+            <div class="col-xs-3 col-sm-2">
+              <a>
+                <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+              </a>
+            </div>
           </div>
         </div>
+      </div>
+  </div>
+  </section>
+  </div>
+  <div class="container-fluid p-0" data-aos="fade-up">
+    <section>
+      <div class="row no-gutters">
+        <div class="container">
+          <div class="row">
+            <div class="sect-header col-12 text-center mb-2">
+              <h1>Anda tertarik?</h1><br>
+              <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='<?= base_url() ?>contact'">Hubungi kami</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
-
   <div class="container-fluid p-0 bg-dark ">
     <footer>
       <div class="row no-gutters full-row-background">
@@ -296,24 +297,6 @@
                   <i class="fas fa-phone-alt"></i> h4+62 0201 9328<br>
                   <i class="fas fa-envelope"></i> blabla@gmail.com
                 </h5>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 mt-2 mb-2">
-              <div class="foot-header text-right">
-                Tinggalkan pesan kepada kami
-              </div>
-              <div class="foot-content">
-                <form method="POST" action="<?= base_url('Home/emailSend') ?>" style="padding-top: 15px">
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@contoh.com" name="email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Pesan</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="pesan"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary float-right" style="background-color: #005073;">Kirim</button>
-                </form>
               </div>
             </div>
           </div>
