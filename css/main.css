@@ -206,6 +206,7 @@ section
     height: 50px;
     width: 50px;
     position: relative;
+    color: rgba(226, 70, 123, 0.86);
 }
 
 .squared-icon .svg-inline--fa {
