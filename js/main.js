@@ -104,5 +104,35 @@ $(function() {
         $("nav").addClass("nav-shadow");
       }
     }
+  })
+
+  $(document).on("click", ".about",function(){
+
+    var scroll = new SmoothScroll('a[href*="#about"]',{
+    offset:200
   });
+
+  })
+  $(document).on("click", ".service",function(){
+
+    var scroll = new SmoothScroll('a[href*="#services"]',{
+		offset:130
+	});
+
+  })
+  $(document).on("click", ".team",function(){
+
+    var scroll = new SmoothScroll('a[href*="#team"]',{
+		offset:130
+	});
+
+  })
+  $(document).on("click", ".contact",function(){
+
+    var scroll = new SmoothScroll('a[href*="#contact"]',{
+	  offset:130
+	});
+
+  })
+
 });
