@@ -99,7 +99,7 @@ nav a.nav-link {
 
 @media(min-width: 992px) {
   .slogan-background {
-    background-size: contain;
+    background-size: 50%;
     background-color: white;
     background-position: center right;
     background-repeat: no-repeat;
