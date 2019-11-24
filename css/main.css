@@ -161,8 +161,9 @@ section .row:last-child {
     }
 }
 
-section#short_desc .desc-text {
+section#about .desc-text {
     color: #5d5d5d;
+    font-size: 18px;
 }
 
 section#services .service-item {
@@ -180,12 +181,29 @@ section#services p {
     font-size: 16px;
 }
 
+section#about h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+}
+
+section
+
 .squared-icon {
     display: inline-block;
-    padding: 8px;
+    /* padding: 13px; */
     background: #fff;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
-    font-size: 32px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .15);
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.squared-icon .svg-inline--fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .full-row-background {
@@ -326,8 +344,13 @@ section#services p {
 
 /* Footer */
 
+.footer-color{
+  background: #107DAC;
+}
+
 footer {
     color: #fff;
+    padding-top: 35px;
 }
 
 footer .foot-header {
@@ -342,15 +365,17 @@ footer .foot-content {
     font-size: 14px;
     font-weight: 400;
     margin-top: 4px;
+    padding-top: 10px;
+}
+
+footer .foot-content .svg-inline--fa {
+  font-size: 20px;
+  vertical-align: middle;
+  width: 35px;
 }
 
 
 /* Misc */
-
-.bg-dark {
-    color: #191919;
-}
-
 .bg-grey {
     background-color: rgba(185, 185, 185, .17);
 }
