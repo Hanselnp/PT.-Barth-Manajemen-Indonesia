@@ -1,4 +1,5 @@
 /* Font Import */
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
@@ -6,248 +7,257 @@
 
 /* Optimalized on 1366x768 */
 
+
 /* Navbar */
+
 nav {
-  position: fixed !important;
-  width: 100%;
-  z-index: 99;
+    position: fixed !important;
+    width: 100%;
+    z-index: 99;
 }
 
 nav.nav-shadow {
-  box-shadow: 0 0 25px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 25px rgba(0, 0, 0, .2);
 }
 
 nav .navbar-brand {
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 400;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
 }
 
 nav .navbar-brand .navbar-brand-text {
-  font-size: 15px;
-  line-height: 16px;
+    font-size: 15px;
+    line-height: 16px;
 }
 
 nav .navbar-brand-text .top-text {
-  font-weight: 400;
-  color: #356293 !important;
+    font-weight: 400;
+    color: #356293 !important;
 }
 
 nav .navbar-brand-text .bottom-text {
-  font-weight: 400;
-  color: #FF0000 !important;
+    font-weight: 400;
+    color: #FF0000 !important;
 }
 
 nav li.active a.nav-link {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  color: #005073 !important;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: #005073 !important;
 }
 
 nav a.nav-link {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  color: #107dac !important;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #107dac !important;
 }
 
 .top-divider {
-  margin-top: 66px;
+    margin-top: 66px;
 }
 
+
 /* Jumbotron */
+
 .jumbotron {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: relative;
-  z-index: -2;
-  margin-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+    margin-bottom: 0;
 }
 
 .jumbotron .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0,0,0,.4);
-  z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
 }
 
 .jumbotron .a-button {
-  background: #000;
-  padding: 10px;
-  border-radius: 20px;
-  color: #fff;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+    background: #000;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
 }
 
 @media(max-width:767px) {
-  .jumbotron-inner {
-    width: 100%;
-    z-index: 0;
-    text-align: center;
-  }
+    .jumbotron-inner {
+        width: 100%;
+        z-index: 0;
+        text-align: center;
+    }
 }
 
 @media(min-width:768px) {
-  .jumbotron-inner {
-    width: 60%;
-    z-index: 0;
-  }
+    .jumbotron-inner {
+        width: 60%;
+        z-index: 0;
+    }
 }
 
 .jumbotron h1 {
-  color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 52px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
 }
 
 .jumbotron p {
-  color: #fff;
-  font-family: 'Playfair Display', sans-serif;
-  margin-bottom: 3rem;
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 3rem;
 }
 
+
 /* Section */
+
 section {
-  margin-top: 80px;
-  margin-bottom: 90px;
+    margin-top: 80px;
+    margin-bottom: 90px;
 }
 
 section .sect-header {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  color: #107DAC;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    color: #107DAC;
 }
 
 section .row:first-child {
-  padding-top: 15px;
+    padding-top: 15px;
 }
 
 section .row:last-child {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
-/* Section Specific */
-@media (min-width: 768px){
-  section#fr-ads h2 {
-    font-family: "Quicksand", sans-serif;
-    font-size: 60px;
-  }
 
-  section#fr-ads .desc-text {
-    font-size: 22px;
-    color: #5d5d5d;
-  }
+/* Section Specific */
+
+@media (min-width: 768px) {
+    section#fr-ads h2 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 60px;
+    }
+    section#fr-ads .desc-text {
+        font-size: 22px;
+        color: #5d5d5d;
+    }
 }
 
 @media (max-width: 767px) {
-  section#fr-ads h2 {
-    font-size: 35px;
-  }
-
-  section#fr-ads .desc-text {
-    font-size: 22px;
-    color: #5d5d5d;
-  }
+    section#fr-ads h2 {
+        font-size: 35px;
+    }
+    section#fr-ads .desc-text {
+        font-size: 22px;
+        color: #5d5d5d;
+    }
 }
 
 section#short_desc .desc-text {
-  color: #5d5d5d;
+    color: #5d5d5d;
 }
 
 section#services .service-item {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 section#services h3 {
-  font-family: "Quicksand", sans-serif;
-  color: #107DAC;
-  font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    color: #107DAC;
+    font-size: 30px;
 }
 
 section#services p {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 .squared-icon {
-  display: inline-block;
-  padding: 8px;
-  background: #fff;
-  box-shadow: 0 0 6px rgba(0, 0, 0, .3);
-  font-size: 32px;
+    display: inline-block;
+    padding: 8px;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    font-size: 32px;
 }
 
 .full-row-background {
-  background-size: cover;
-  background-position: right center;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
+
 /* Sly */
+
 .frame {
-  height: 235px;
-  /* line-height: 250px; */
-  overflow: hidden;
+    height: 235px;
+    /* line-height: 250px; */
+    overflow: hidden;
 }
 
 .frame .slidee {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  height: 125%;
-  font-size: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 125%;
+    font-size: 50px;
 }
 
 .frame .slidee .slidee-item {
-  float: left;
-  width: 227px;
-  height: 100%;
-  margin: 0 1px 0 0;
-  padding: 0;
-  cursor: pointer;
-  position: relative;
+    float: left;
+    width: 227px;
+    height: 100%;
+    margin: 0 1px 0 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
 }
 
 .frame .slidee .slidee-item text {
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .frame .slidee .slidee-item .item-image {
-  height: 60%;
+    height: 60%;
 }
 
 .frame .slidee .slidee-item .item-image .image {
-  width: 75%;
-  padding-bottom: 75%;
-  margin: 0 auto;
-  border-radius: 50%;
-  background: #dfdfdf;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    width: 75%;
+    padding-bottom: 75%;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #dfdfdf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .frame .slidee .slidee-item .item-caption {
-  color: #191919;
-  font-size: 20px;
-  text-align: center;
+    color: #191919;
+    font-size: 20px;
+    text-align: center;
 }
 
 .frame .slidee .slidee-item .item-caption p {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .frame .slidee .slidee-item .item-caption .big {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .frame .slidee .slidee-item .item-caption .small {
-  font-size: 15px;
+    font-size: 15px;
 }
+
 
 /* .frame .slidee div.active {
   color: #fff;
@@ -255,86 +265,91 @@ section#services p {
 } */
 
 .frame ul li text {
-  font-size: 22px;
-  bottom: 10px;
+    font-size: 22px;
+    bottom: 10px;
 }
+
 
 /* Scrollbar */
 
 .scrollbar {
-  margin: 0 0 1em 0;
-  height: 2px;
-  background: #ccc;
-  line-height: 0;
+    margin: 0 0 1em 0;
+    height: 2px;
+    background: #ccc;
+    line-height: 0;
 }
 
 .scrollbar .handle {
-  width: 100px;
-  height: 100%;
-  background: #292a33;
-  cursor: pointer;
+    width: 100px;
+    height: 100%;
+    background: #292a33;
+    cursor: pointer;
 }
 
 .scrollbar .handle .mousearea {
-  position: absolute;
-  top: -9px;
-  left: 0;
-  width: 100%;
-  height: 20px;
+    position: absolute;
+    top: -9px;
+    left: 0;
+    width: 100%;
+    height: 20px;
 }
 
 .pages {
-  list-style: none;
-  margin: 20px 0;
-  padding: 0;
-  text-align: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
 }
 
 .pages li {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin: 0 4px;
-  text-indent: -999px;
-  border-radius: 10px;
-  cursor: pointer;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
 }
 
 .pages li:hover {
-  background: #aaa;
+    background: #aaa;
 }
 
 .pages li.active {
-  background: #666;
+    background: #666;
 }
 
+
 /* Footer */
+
 footer {
-  color: #fff;
+    color: #fff;
 }
 
 footer .foot-header {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  border-bottom: 1px solid rgba(255, 255, 255, .4);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
 
 footer .foot-content {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
 }
 
+
 /* Misc */
+
 .bg-dark {
-  color: #191919;
+    color: #191919;
 }
 
 .bg-grey {
-  background-color: rgba(185, 185, 185, .17);
+    background-color: rgba(185, 185, 185, .17);
 }
