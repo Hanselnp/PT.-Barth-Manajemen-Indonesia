@@ -11,9 +11,10 @@
 /* Navbar */
 
 nav {
-    position: fixed !important;
-    width: 100%;
-    z-index: 99;
+  position: fixed !important;
+  width: 100%;
+  z-index: 99;
+  transition: .5s;
 }
 
 nav.nav-shadow {
