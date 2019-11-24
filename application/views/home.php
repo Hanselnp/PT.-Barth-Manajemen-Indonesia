@@ -37,19 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-lg-3">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Tentang Kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Layanan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
+              <a class="nav-link" href="#">Tim</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Hubungi Kami</a>
             </li>
           </ul>
         </div>
@@ -67,6 +67,25 @@
     </h1>
     <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
     <a href="#" class="a-button">Learn More</a>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row full-row-background" style="background-image: url('<?php echo base_url(); ?>/images/top-2.png')">
+    <div class="container">
+      <section id="fr-ads">
+        <div class="row">
+          <div class="sect-header col-12 col-lg-6 mb-2">
+            <h2>Cara Cepat Mengembangkan Manajemen Bisnis Anda</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-7 desc-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </div>
 
