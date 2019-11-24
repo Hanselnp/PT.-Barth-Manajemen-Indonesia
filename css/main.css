@@ -79,6 +79,13 @@ nav a.nav-link {
     z-index: -1;
 }
 
+.slogan-background {
+  background-size: contain;
+  background-color: white;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
 .jumbotron .a-button {
     background: #000;
     padding: 10px;
@@ -104,15 +111,17 @@ nav a.nav-link {
 }
 
 .jumbotron h1 {
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 52px;
+  color: #107DAC;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 52px;
 }
 
 .jumbotron p {
-    color: #fff;
-    font-family: 'Playfair Display', sans-serif;
-    margin-bottom: 3rem;
+  color: #5d5d5d;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 3rem;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 

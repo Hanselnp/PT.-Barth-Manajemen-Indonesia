@@ -13,10 +13,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url() ?>/js/font-awesome/all.js" charset="utf-8"></script>
 <script src="<?php echo base_url() ?>/js/sly/sly.min.js" charset="utf-8"></script>
+<script src="<?php echo base_url() ?>/js/smooth-scroll/smooth-scroll.polyfills.min.js" charset="utf-8"></script>
 <script src="<?php echo base_url() ?>/js/main.js" charset="utf-8"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 </head>
 
 <body>
@@ -35,44 +35,40 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mr-lg-3">
-              <li class="nav-item active">
-                <a class="nav-link " href="#" id="home">Beranda<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="about">Tentang Kami</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="services">Layanan</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="teams">Tim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="client">Client Kami</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Hubungi Kami</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-lg-3">
+            <li class="nav-item active">
+              <a class="nav-link" onclick="scrollWindow(0, 100px)">Beranda<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item about">
+              <a class="nav-link" data-scroll href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item service">
+              <a class="nav-link" data-scroll1 href="#service">Layanan</a>
+            </li>
+            <li class="nav-item team">
+              <a class="nav-link" data-scroll href="#team">Tim</a>
+            </li>
+            <li class="nav-item contact">
+              <a class="nav-link" data-scroll href="#contact">Client Kami</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
 
-  <div class="top-divider"></div>
-  <div class="jumbotron text-left " data-aos="fade-up" style="background-color: white; ">
-    <!-- <div class="overlay"></div> -->
-    <div class="jumbotron-inner">
-      <h1>
-        Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
-      </h1>
-      <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
-      <a href="#" class="a-button">Learn More</a>
-    </div>
+<div class="top-divider"></div>
+<div class="jumbotron text-left slogan-background" style="background-image: url('<?php echo base_url(); ?>/images/colab_img.jpg')">
+  <!-- <div class="overlay"></div> -->
+  <div class="jumbotron-inner">
+    <h1>
+      Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
+    </h1>
+    <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
+    <a href="#" class="a-button">Learn More</a>
   </div>
+</div>
 
   <section id="home" class="container-fluid">
     <div class="row full-row-background" style="background-image: url('<?php echo base_url(); ?>/images/top-2.png')">
@@ -84,13 +80,27 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-12 col-lg-7 desc-text">
+            <div class="col-12 col-lg-7 desc-text" id="about">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </div>
           </div>
-        </section>
       </div>
     </div>
+  </section>
+
+<div class="container" >
+  <section id="short_desc">
+    <div class="row">
+      <div class="sect-header col-12 text-center mb-2">
+        <h2>Who are we?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto text-center desc-text">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+    <nav id="service"></nav>
   </section>
 
 
@@ -340,4 +350,5 @@
     });
   </script>
 </body>
+
 </html>
