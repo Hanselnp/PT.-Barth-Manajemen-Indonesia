@@ -103,22 +103,30 @@ $(function() {
 
   $(document).on("click", ".about",function(){
 
-    var scroll = new SmoothScroll('a[href*="#about"]');
+    var scroll = new SmoothScroll('a[href*="#about"]',{
+		header: '[data-scroll-header]'
+  });
 
   })
   $(document).on("click", ".service",function(){
 
-    var scroll = new SmoothScroll('a[href*="#services"]');
+    var scroll = new SmoothScroll('a[href*="#services"]',{
+		header: '[data-scroll-header]'
+	});
 
   })
   $(document).on("click", ".team",function(){
 
-    var scroll = new SmoothScroll('a[href*="#team"]');
+    var scroll = new SmoothScroll('a[href*="#team"]',{
+		header: '[data-scroll-header]'
+	});
 
   })
   $(document).on("click", ".contact",function(){
 
-    var scroll = new SmoothScroll('a[href*="#contact"]');
+    var scroll = new SmoothScroll('a[href*="#contact"]',{
+		header: '[data-scroll-header]'
+	});
 
   })
 
