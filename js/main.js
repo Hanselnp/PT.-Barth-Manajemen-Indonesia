@@ -107,18 +107,18 @@ $(function() {
 
   })
   $(document).on("click", ".service",function(){
-    alert("you clicked Layanan");
-    var scroll1 = new SmoothScroll('a[href*="#service"]');
+
+    var scroll = new SmoothScroll('a[href*="#services"]');
 
   })
   $(document).on("click", ".team",function(){
-    alert("you clicked Tim");
-    var scroll1 = new SmoothScroll('a[href*="#service"]');
+
+    var scroll = new SmoothScroll('a[href*="#team"]');
 
   })
   $(document).on("click", ".contact",function(){
-    alert("you clicked Hubungi Kami");
-    var scroll1 = new SmoothScroll('a[href*="#service"]');
+
+    var scroll = new SmoothScroll('a[href*="#contact"]');
 
   })
 

@@ -44,7 +44,7 @@
               <a class="nav-link" data-scroll href="#about">Tentang Kami</a>
             </li>
             <li class="nav-item service">
-              <a class="nav-link" data-scroll1 href="#service">Layanan</a>
+              <a class="nav-link" data-scroll href="#services">Layanan</a>
             </li>
             <li class="nav-item team">
               <a class="nav-link" data-scroll href="#team">Tim</a>
@@ -89,22 +89,9 @@
   </section>
 
 <div class="container" >
-  <section id="short_desc">
-    <div class="row">
-      <div class="sect-header col-12 text-center mb-2">
-        <h2>Who are we?</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-lg-8 mx-auto text-center desc-text">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
-    <nav id="service"></nav>
-  </section>
-
 
   <div class="container" data-aos="fade-up">
+    <!-- anchor -->
     <section id="about">
       <div class="row">
         <div class="sect-header col-12 text-center mb-2">
@@ -115,11 +102,13 @@
         <div class="col-12 col-lg-8 mx-auto text-center desc-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
+        <!-- anchor -->
+        <section id="services"></section>
       </div>
     </section>
   </div>
   <div class="container-fluid p-0" data-aos="fade-up">
-    <section id="services">
+    <section>
       <div class="row no-gutters">
         <div class="container">
           <div class="row">
@@ -155,6 +144,10 @@
                 <i class="fas fa-percent"></i> </span>
               <h3 class="mt-2">Pajak</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+              <!-- anchor -->
+              <section id="team"></section>
+
             </div>
           </div>
         </div>
@@ -220,6 +213,9 @@
                 </div>
               </div>
             </div>
+            <!-- anchor  -->
+            <section id="contact"></section>
+
             <div class="mx-auto text-center" style="display: block;">
               <ul class="pages"></ul>
             </div>
