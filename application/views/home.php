@@ -38,7 +38,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-lg-3">
               <li class="nav-item active">
-                <a class="nav-link">Beranda<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<?php echo base_url(); ?>">Beranda<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item about">
                 <a class="nav-link" href="#about">Tentang Kami</a>
@@ -66,7 +66,7 @@
           Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
         </h1>
         <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
-        <a href="#" class="a-button">Pelajari lebih lanjut.</a>
+        <button type="button" class="btn btn-primary btn-lg custom-btn" onclick="window.location.href='<?= base_url() ?>contact'">Pelajari lebih lanjut</button>
       </div>
     </div>
 
@@ -99,16 +99,7 @@
         <div class="row">
           <div class="col-12 col-lg-8 mx-auto desc-text text-center">
             <p>
-              PT. Barth Manajemen Indonesia merupakan usaha pada bidang jasa, berdiri sejak tahun 2000 dan dipelopori oleh Ibu Ratih Pujiati SE sebagai Direktur Utama, dimana berawal dari usaha perseorangan Outsourcing & Manajemen di bidang Perpajakan dan keuangan.
-
-              bekerja sama dengan beberapa KAP (Kantor Akuntan Publik) dan KKP (Kantor Konsultan Pajak ) yang beregister pada tahun 2012 dimana
-              Usaha kami juga melakukan pelatihan  pajak dan akuntansi pada perusahaan. Setiap tahunnya kami berkecimpung di pelaporan perpajakan Tahunan (SPT Tahunan).
-
-              Kami juga menyediakan service berupa jasa akuntansi untuk perusahaan bagi anda yang belum memiliki system program akuntansi.
-
-             Dengan dukungan anda, pada tahun 2019 usaha kami telah terdaftar menjadi PT. Barth Manajemen Indonesia.
-
-              sehingga kami dapat memiliki Divisi baru yaitu pembiayaan Modal Kerja untuk para pengusaha kecil, menengah dan besar yang membutuhkan pembiayaan modal dan cashflow. </p>
+              PT. Barth Manajemen Indonesia merupakan usaha pada bidang jasa yang berdiri sejak tahun 2000 dan dipelopori oleh Ibu Ratih Pujiati, S.E. sebagai Direktur Utama, dimana berawal dari usaha perseorangan Outsourcing & Manajemen dibidang Perpajakan dan keuangan. Bekerja sama dengan beberapa Kantor Akuntan Publik dan Kantor Konsultan Pajak yang terdaftar pada tahun 2012 dimana usaha kami juga melakukan pelatihan pajak dan akuntansi untuk perusahaan. Setiap tahunnya kami juga berkecimpung di pelaporan perpajakan Tahunan (SPT Tahunan). Kami juga menyediakan layanan berupa jasa akuntansi untuk perusahaan bagi anda yang belum memiliki sistem program akuntansi. Dengan dukungan anda, pada tahun 2019 usaha kami telah terdaftar menjadi PT. Barth Manajemen Indonesia. Sehingga kami dapat memiliki divisi baru yaitu pembiayaan modal kerja untuk para pengusaha kecil, menengah dan besar yang membutuhkan pembiayaan modal dan cashflow.</p>
           </div>
         </div>
       </section>
@@ -282,7 +273,7 @@
           <div class="row">
             <div class="sect-header col-12 text-center mb-2">
               <h1>Anda tertarik?</h1><br>
-              <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='<?= base_url() ?>contact'">Hubungi kami</button>
+              <button type="button" class="btn btn-primary btn-lg custom-btn" onclick="window.location.href='<?= base_url() ?>contact'">Hubungi kami</button>
             </div>
           </div>
         </div>
@@ -320,7 +311,7 @@
               </div>
               <div class="foot-content">
                 <i class="fas fa-map"></i> Gading Serpong, Tangerang, 15811 <br> <br>
-                <i class="fas fa-phone-alt"></i> +62 822 11244424 <br><br>
+                <i class="fas fa-phone-alt"></i> +62 812 9333 0862 <br><br>
                 <i class="fas fa-envelope"></i> customer.service@bmi.co.id
               </div>
               <!-- <div class="foot-content">

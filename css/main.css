@@ -65,7 +65,6 @@ nav a.nav-link {
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
-    z-index: -2;
     margin-bottom: 0;
 }
 
@@ -208,7 +207,6 @@ section .row:last-child {
 
 
 /* Section Specific */
-
 @media (min-width: 768px) {
     section#fr-ads h2 {
         font-family: "Quicksand", sans-serif;
@@ -225,6 +223,27 @@ section .row:last-child {
         font-size: 35px;
     }
     section#fr-ads .desc-text {
+        font-size: 22px;
+        color: #5d5d5d;
+    }
+}
+
+@media (min-width: 768px) {
+    section#contact-us h2 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 60px;
+    }
+    section#contact-us .desc-text {
+        font-size: 18px;
+        color: #5d5d5d;
+    }
+}
+
+@media (max-width: 767px) {
+    section#contact-us h2 {
+        font-size: 35px;
+    }
+    section#contact-us .desc-text {
         font-size: 22px;
         color: #5d5d5d;
     }
@@ -469,4 +488,10 @@ footer .foot-content .svg-inline--fa {
 /* Misc */
 .bg-grey {
     background-color: rgba(185, 185, 185, .17);
+}
+
+.custom-btn {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
 }

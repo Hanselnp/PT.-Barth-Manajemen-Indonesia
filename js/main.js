@@ -106,33 +106,32 @@ $(function() {
     }
   })
 
-  $(document).on("click", ".about",function(){
-
+  $(document).on("click", ".about",function(e){
+    e.preventDefault();
     var scroll = new SmoothScroll('a[href*="#about"]',{
     offset:200
   });
 
   })
-  $(document).on("click", ".service",function(){
-
+  $(document).on("click", ".service",function(e){
+    e.preventDefault();
     var scroll = new SmoothScroll('a[href*="#services"]',{
 		offset:130
 	});
 
   })
-  $(document).on("click", ".team",function(){
-
+  $(document).on("click", ".team",function(e){
+    e.preventDefault();
     var scroll = new SmoothScroll('a[href*="#team"]',{
 		offset:130
 	});
 
   })
-  $(document).on("click", ".contact",function(){
-
+  $(document).on("click", ".contact",function(e){
+    e.preventDefault();
     var scroll = new SmoothScroll('a[href*="#contact"]',{
 	  offset:130
 	});
-
   })
 
 });
