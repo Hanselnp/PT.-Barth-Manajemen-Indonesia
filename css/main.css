@@ -307,6 +307,15 @@ section#about h2 {
     position: relative;
 }
 
+.slidee-item-client {
+    width: 50px;
+    height: 5%;
+    margin: 0 1px 0 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+}
+
 .frame .slidee .slidee-item text {
     position: absolute;
     bottom: 0;
@@ -316,11 +325,25 @@ section#about h2 {
     height: 60%;
 }
 
+.frame .slidee .slidee-item-client .item-image-client {
+    height: 35%;
+}
+
 .frame .slidee .slidee-item .item-image .image {
     width: 75%;
     padding-bottom: 75%;
     margin: 0 auto;
     border-radius: 50%;
+    background: #dfdfdf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame .slidee .slidee-item-client .item-image-client .image {
+    width: 75%;
+    padding-bottom: 75%;
+    margin: 0 auto;
     background: #dfdfdf;
     background-position: center center;
     background-repeat: no-repeat;

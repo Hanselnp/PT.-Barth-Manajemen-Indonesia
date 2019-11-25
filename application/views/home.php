@@ -35,238 +35,187 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mr-lg-3">
-            <li class="nav-item active">
-              <a class="nav-link">Beranda<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item about">
-              <a class="nav-link" href="#about">Tentang Kami</a>
-            </li>
-            <li class="nav-item service">
-              <a class="nav-link" href="#services">Layanan</a>
-            </li>
-            <li class="nav-item team">
-              <a class="nav-link" href="#team">Tim</a>
-            </li>
-            <li class="nav-item contact">
-              <a class="nav-link" href="#contact">Client Kami</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-
-<div class="top-divider"></div>
-<div class="jumbotron text-left slogan-background" style="background-image: url('<?php echo base_url(); ?>/images/colab_img.jpg')">
-  <!-- <div class="overlay"></div> -->
-  <div class="jumbotron-inner">
-    <h1>
-      Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
-    </h1>
-    <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
-    <a href="#" class="a-button">Learn More</a>
-  </div>
-</div>
-
-  <section id="home" class="container-fluid">
-    <div class="row full-row-background" style="background-image: url('<?php echo base_url(); ?>/images/top-2.png')">
-      <div class="container">
-        <section id="fr-ads">
-          <div class="row">
-            <div class="sect-header col-12 col-lg-6 mb-2">
-              <h2>Cara Cepat Mengembangkan Manajemen Bisnis Anda</h2>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-lg-3">
+              <li class="nav-item active">
+                <a class="nav-link">Beranda<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item about">
+                <a class="nav-link" href="#about">Tentang Kami</a>
+              </li>
+              <li class="nav-item service">
+                <a class="nav-link" href="#services">Layanan</a>
+              </li>
+              <li class="nav-item team">
+                <a class="nav-link" href="#team">Tim</a>
+              </li>
+              <li class="nav-item contact">
+                <a class="nav-link" href="#contact">Client Kami</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-            <div class="col-12 col-lg-7 desc-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-          </div>
+        </nav>
       </div>
     </div>
-    <!-- anchor -->
-    <section id="about"></section>
-  </section>
-  <div class="container" data-aos="fade-up">
-    <section>
-      <div class="row">
-        <div class="sect-header col-12 col-lg-8 mx-auto mb-2 text-center">
-          <h2>Siapa Kami?</h2>
-        </div>
+
+    <div class="top-divider"></div>
+    <div class="jumbotron text-left slogan-background" style="background-image: url('<?php echo base_url(); ?>/images/colab_img.jpg')">
+      <!-- <div class="overlay"></div> -->
+      <div class="jumbotron-inner">
+        <h1>
+          Menyediakan Solusi Untuk <br> Permasalahan Manajemen Anda.
+        </h1>
+        <p>Kami merupakan perushaan yang bergerak pada jasa manajemen lainnya</p>
+        <a href="#" class="a-button">Learn More</a>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-8 mx-auto desc-text text-center">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </div>
-    </section>
-  </div>
-  <!-- anchor -->
-  <section id="services"></section>
-  <div class="container-fluid p-0" data-aos="fade-up">
-    <section>
-      <div class="row no-gutters">
+    </div>
+
+    <section id="home" class="container-fluid">
+      <div class="row full-row-background" style="background-image: url('<?php echo base_url(); ?>/images/top-2.png')">
         <div class="container">
-          <div class="row">
-            <div class="sect-header col-12 text-center mb-2">
-              <h2>Our Services</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-md-6 service-item">
-              <span class="squared-icon">
-                <i class="fas fa-users-cog"></i>
-              </span>
-              <h3 class="mt-2">Jasa Manajemen</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            </div>
-            <div class="col-12 col-md-6 service-item">
-              <span class="squared-icon">
-                <i class="fas fa-users"></i>
-              </span>
-              <h3 class="mt-2">Outsourcing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-md-6 service-item">
-              <span class="squared-icon">
-                <i class="fas fa-money-check-alt"></i> </span>
-              <h3 class="mt-2">Akuntansi</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            </div>
-            <div class="col-12 col-md-6 service-item">
-              <span class="squared-icon">
-                <i class="fas fa-percent"></i> </span>
-              <h3 class="mt-2">Pajak</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- anchor -->
-    <section id="team"></section>
-  </div>
-  <div class="container-fluid p-0" data-aos="fade-up">
-    <section id="teams">
-      <div class="row no-gutters">
-        <div class="container">
-          <div class="row">
-            <div class="sect-header col-12 text-center mb-2">
-              <h2>Our Expert Teams</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="frame" id="basic">
-              <div class="slidee">
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                    <p class="big">Nama Orang</p>
-                    <p class="small">Jabatan</p>
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                    <p class="big">Nama Orang</p>
-                    <p class="small">Jabatan</p>
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                    <p class="big">Nama Orang</p>
-                    <p class="small">Jabatan</p>
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                    <p class="big">Nama Orang</p>
-                    <p class="small">Jabatan</p>
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                    <p class="big">Nama Orang</p>
-                    <p class="small">Jabatan</p>
-                  </div>
-                </div>
+          <section id="fr-ads">
+            <div class="row">
+              <div class="sect-header col-12 col-lg-6 mb-2">
+                <h2>Cara Cepat Mengembangkan Manajemen Bisnis Anda</h2>
               </div>
             </div>
-            <div class="mx-auto text-center" style="display: block;">
-              <ul class="pages"></ul>
+            <div class="row">
+              <div class="col-12 col-lg-7 desc-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- anchor -->
+      <section id="about"></section>
+    </section>
+    <div class="container" data-aos="fade-up">
+      <section>
+        <div class="row">
+          <div class="sect-header col-12 col-lg-8 mx-auto mb-2 text-center">
+            <h2>Siapa Kami?</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-8 mx-auto desc-text text-center">
+            <p>
+              Perusahaan ini merupakan usaha jasa yang berdiri sejak tahun 2000 dipelopori oleh Ibu Ratih Pujiati SE, selaku Direktur Utama, dimana berawal dari usaha perseorangan Outshorcing & Manajemen di bidang Perpajakan dan keuangan.
+
+              Lalu usaha kami berkembang tahun 2012 bekerja sama dengan beberapa KAP (Kantor Akuntan Publik) dan KKP (Kantor Konsultan Pajak ) yang beregister.
+              Usaha kami juga melakukan pelatihan – pelatihan pajak dan akuntansi di perusahaan – perusahaan, dimana setiap tahunnya kami berkecimpung di pelaporan perpajakan Tahunan ( SPT Tahunan).
+
+              Selain itu kami juga menyediakan service jasa akuntansi untuk perusahaan – perusahaan yang belum memiliki system program akuntansi.
+
+              Pada tahun 2019 usaha kami di tetapkan menjadi Perusahaan Perseroan Terbatas dengan nama PT. Barth Manajemen Indonesia.
+
+              Dalam hal ini kami memiliki Divisi baru yaitu pembiayaan Modal Kerja untuk Pengusaha – pengusaha kecil, menengah dan besar yang membutuhkan pembiayaan modal dan cashflo </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- anchor -->
+    <section id="services"></section>
+    <div class="container-fluid p-0" data-aos="fade-up">
+      <section>
+        <div class="row no-gutters">
+          <div class="container">
+            <div class="row">
+              <div class="sect-header col-12 text-center mb-2">
+                <h2>Our Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 service-item">
+                <span class="squared-icon">
+                  <i class="fas fa-users-cog"></i>
+                </span>
+                <h3 class="mt-2">Jasa Manajemen</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              </div>
+              <div class="col-12 col-md-6 service-item">
+                <span class="squared-icon">
+                  <i class="fas fa-users"></i>
+                </span>
+                <h3 class="mt-2">Outsourcing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 service-item">
+                <span class="squared-icon">
+                  <i class="fas fa-money-check-alt"></i> </span>
+                <h3 class="mt-2">Akuntansi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              </div>
+              <div class="col-12 col-md-6 service-item">
+                <span class="squared-icon">
+                  <i class="fas fa-percent"></i> </span>
+                <h3 class="mt-2">Pajak</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- anchor  -->
-    <section id="contact"></section>
-  </div>
-  <div class="container-fluid p-0" data-aos="fade-up">
-    <section id="clients">
-      <div class="row no-gutters">
-        <div class="container">
-          <div class="row">
-            <div class="sect-header col-12 text-center mb-2">
-              <h2>Our Clients</h2>
+      </section>
+      <!-- anchor -->
+      <section id="team"></section>
+    </div>
+    <div class="container-fluid p-0" data-aos="fade-up">
+      <section id="teams">
+        <div class="row no-gutters">
+          <div class="container">
+            <div class="row">
+              <div class="sect-header col-12 text-center mb-2">
+                <h2>Our Expert Teams</h2>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <!-- List of Clients -->
-            <div class="frame" id="basic">
-              <div class="slidee">
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+            <div class="row">
+              <div class="frame" id="basic">
+                <div class="slidee">
+                  <div class="slidee-item">
+                    <div class="item-image">
+                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                    </div>
+                    <div class="item-caption">
+                      <p class="big">Nama Orang</p>
+                      <p class="small">Jabatan</p>
+                    </div>
                   </div>
-                  <div class="item-caption">
+                  <div class="slidee-item">
+                    <div class="item-image">
+                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                    </div>
+                    <div class="item-caption">
+                      <p class="big">Nama Orang</p>
+                      <p class="small">Jabatan</p>
+                    </div>
                   </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                  <div class="slidee-item">
+                    <div class="item-image">
+                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                    </div>
+                    <div class="item-caption">
+                      <p class="big">Nama Orang</p>
+                      <p class="small">Jabatan</p>
+                    </div>
                   </div>
-                  <div class="item-caption">
+                  <div class="slidee-item">
+                    <div class="item-image">
+                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                    </div>
+                    <div class="item-caption">
+                      <p class="big">Nama Orang</p>
+                      <p class="small">Jabatan</p>
+                    </div>
                   </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
-                  </div>
-                </div>
-                <div class="slidee-item">
-                  <div class="item-image">
-                    <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
-                  </div>
-                  <div class="item-caption">
+                  <div class="slidee-item">
+                    <div class="item-image">
+                      <div class="image" style="background-image: url('https://style.anu.edu.au/_anu/4/images/placeholders/person.png')"></div>
+                    </div>
+                    <div class="item-caption">
+                      <p class="big">Nama Orang</p>
+                      <p class="small">Jabatan</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -274,9 +223,70 @@
                 <ul class="pages"></ul>
               </div>
             </div>
-
           </div>
         </div>
+      </section>
+      <!-- anchor  -->
+      <section id="contact"></section>
+    </div>
+
+    <div class="container-fluid p-0" data-aos="fade-up">
+      <section id="clients">
+        <div class="row no-gutters">
+          <div class="container">
+            <div class="row">
+              <div class="sect-header col-12 text-center mb-2">
+                <!-- <img src="<?php echo base_url() ?>/images/client.png" class="img-fluid" alt=""> -->
+                <h2>Client Kami</h2>
+              </div>
+              <div class="col-xs-3 col-sm-2">
+                <a>
+                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-2">
+                <a>
+                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-2">
+                <a>
+                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-2">
+                <a>
+                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-2">
+                <a>
+                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                </a>
+              </div>
+              <div class="col-xs-3 col-sm-2">
+                <a>
+                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+  </div>
+  <div class="container-fluid p-0" data-aos="fade-up">
+    <section>
+      <div class="row no-gutters">
+        <div class="container">
+          <div class="row">
+            <div class="sect-header col-12 text-center mb-2">
+              <h1>Anda tertarik?</h1><br>
+              <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='<?= base_url() ?>contact'">Hubungi kami</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 
