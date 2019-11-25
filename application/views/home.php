@@ -241,17 +241,17 @@
               </div>
               <div class="col-xs-3 col-sm-2">
                 <a>
-                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                  <img src="<?php echo base_url(); ?>/images/our_client/asyx.png" class="img-fluid" alt="" style="vertical-align:middle">
                 </a>
               </div>
               <div class="col-xs-3 col-sm-2">
                 <a>
-                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                  <img src="<?php echo base_url(); ?>/images/our_client/bosnet.png" class="img-fluid" alt="" style="vertical-align:middle">
                 </a>
               </div>
               <div class="col-xs-3 col-sm-2">
                 <a>
-                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
+                  <img src="<?php echo base_url(); ?>/images/our_client/multiguna.png" class="img-fluid" alt="" style="vertical-align:middle">
                 </a>
               </div>
               <div class="col-xs-3 col-sm-2">
