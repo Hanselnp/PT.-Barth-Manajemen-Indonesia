@@ -38,7 +38,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-lg-3">
               <li class="nav-item active">
-                <a class="nav-link">Beranda<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#beranda">Beranda<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item about">
                 <a class="nav-link" href="#about">Tentang Kami</a>
@@ -57,6 +57,8 @@
         </nav>
       </div>
     </div>
+    <!-- acnhor -->
+    <section id="beranda"></section>
 
     <div class="top-divider"></div>
     <div class="jumbotron text-left slogan-background" style="background-image: url('<?php echo base_url(); ?>/images/colab_img.jpg')">
@@ -239,41 +241,26 @@
                 <!-- <img src="<?php echo base_url() ?>/images/client.png" class="img-fluid" alt=""> -->
                 <h2>Client Kami</h2>
               </div>
-              <div class="col-xs-3 col-sm-2">
+              <div class="col-xs-3 col-sm-4 text-center">
                 <a>
                   <img src="<?php echo base_url(); ?>/images/our_client/asyx.png" class="img-fluid" alt="" style="vertical-align:middle">
                 </a>
               </div>
-              <div class="col-xs-3 col-sm-2">
+              <div class="col-xs-3 col-sm-4">
                 <a>
                   <img src="<?php echo base_url(); ?>/images/our_client/bosnet.png" class="img-fluid" alt="" style="vertical-align:middle">
                 </a>
               </div>
-              <div class="col-xs-3 col-sm-2">
+              <div class="col-xs-3 col-sm-4">
                 <a>
                   <img src="<?php echo base_url(); ?>/images/our_client/multiguna.png" class="img-fluid" alt="" style="vertical-align:middle">
-                </a>
-              </div>
-              <div class="col-xs-3 col-sm-2">
-                <a>
-                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
-                </a>
-              </div>
-              <div class="col-xs-3 col-sm-2">
-                <a>
-                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
-                </a>
-              </div>
-              <div class="col-xs-3 col-sm-2">
-                <a>
-                  <img src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png" class="img-fluid" alt="" style="vertical-align:middle">
                 </a>
               </div>
             </div>
           </div>
         </div>
+      </section>
     </div>
-    </section>
   </div>
   <div class="container-fluid p-0" data-aos="fade-up">
     <section>

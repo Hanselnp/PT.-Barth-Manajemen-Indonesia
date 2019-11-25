@@ -106,6 +106,15 @@ $(function() {
     }
   })
 
+
+  $(document).on("click", ".beranda",function(){
+
+    var scroll = new SmoothScroll('a[href*="#beranda"]',{
+    
+  });
+
+  })
+
   $(document).on("click", ".about",function(){
 
     var scroll = new SmoothScroll('a[href*="#about"]',{
