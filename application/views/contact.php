@@ -75,10 +75,10 @@
                                             <h2>Hubungi Kami</h2>
                                         </div>
                                         <div class="desc-text" style="padding-top: 15px">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, fugit accusantium exercitationem provident cupiditate voluptate, error est laboriosam ducimus aperiam tempora nostrum. Officiis at delectus ducimus inventore nihil? Quisquam, veritatis.</p>
+                                            <p>Anda berminat menggunakan jasa dan layanan kami?</p>
                                             <br>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, fugit accusantium exercitationem provident cupiditate voluptate, error est laboriosam ducimus aperiam tempora nostrum. Officiis at delectus ducimus inventore nihil? Quisquam.</p>
-
+                                            <p>Hubungi kami di: +62 812 9333 0862</p>
+                                            <p>Gading Serpong, Tangerang, 15811</p>
                                         </div>
                                     </div>
                                     <div class="col-0 col-md-1 ">
